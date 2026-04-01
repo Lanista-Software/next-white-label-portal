@@ -1,0 +1,17 @@
+{
+  "domains": [
+    "system",
+    "app",
+    "brand",
+    "ops"
+  ],
+  "locales": {
+    "default": "en",
+    "supported": [
+      "en"
+    ]
+  },
+  "stack": "next",
+  "version": 1,
+  "workflow": "auto-merge"
+}

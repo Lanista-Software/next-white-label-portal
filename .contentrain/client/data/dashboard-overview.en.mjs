@@ -1,0 +1,9 @@
+export default {
+  "environment_badge": "Tenant parity",
+  "eyebrow": "White-label portal",
+  "primary_cta_href": "/tenants",
+  "primary_cta_label": "Review tenants",
+  "status_note": "Three tenants are seeded with distinct terminology and locale sets.",
+  "summary": "This starter models brand-facing portal copy, support routes, terminology, and locale coverage as structured content.",
+  "title": "Keep tenant-specific language out of ad-hoc conditionals."
+}

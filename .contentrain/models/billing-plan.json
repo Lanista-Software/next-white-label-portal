@@ -1,0 +1,35 @@
+{
+  "domain": "app",
+  "fields": {
+    "cadence": {
+      "type": "string"
+    },
+    "cta_href": {
+      "type": "string"
+    },
+    "cta_label": {
+      "type": "string"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "features": {
+      "items": "string",
+      "type": "array"
+    },
+    "name": {
+      "required": true,
+      "type": "string"
+    },
+    "price_label": {
+      "required": true,
+      "type": "string"
+    },
+    "status_badge": {
+      "type": "string"
+    }
+  },
+  "i18n": true,
+  "id": "billing-plan",
+  "kind": "collection"
+}

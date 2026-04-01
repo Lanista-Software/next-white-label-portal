@@ -1,0 +1,94 @@
+export default [
+  {
+    "accent_label": "Midnight blue",
+    "available_locales": [
+      "en",
+      "de",
+      "fr"
+    ],
+    "docs_href": "https://docs.contentrain.io/",
+    "id": "tenant-acme-finance",
+    "industry": "Financial services",
+    "logo_mark": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&fm=jpg&q=80&w=700",
+    "name": "Acme Finance",
+    "slug": "acme-finance",
+    "summary": "Uses compliance-heavy terminology and shortened billing language for account managers.",
+    "support_email": "success@acme.example",
+    "terminology": [
+      {
+        "label": "Workspace",
+        "value": "Portfolio"
+      },
+      {
+        "label": "Admin",
+        "value": "Operations manager"
+      },
+      {
+        "label": "Billing",
+        "value": "Seat plan"
+      }
+    ],
+    "theme_badge": "Regulated"
+  },
+  {
+    "accent_label": "Copper",
+    "available_locales": [
+      "en",
+      "fr",
+      "tr"
+    ],
+    "docs_href": "https://docs.contentrain.io/",
+    "id": "tenant-apex-logistics",
+    "industry": "Logistics",
+    "logo_mark": "https://images.unsplash.com/photo-1494412685616-a5d310fbb07d?auto=format&fit=crop&fm=jpg&q=80&w=700",
+    "name": "Apex Logistics",
+    "slug": "apex-logistics",
+    "summary": "Optimizes terminology for dispatch, fulfillment, and partner portal routes across regions.",
+    "support_email": "ops@apex.example",
+    "terminology": [
+      {
+        "label": "Workspace",
+        "value": "Dispatch hub"
+      },
+      {
+        "label": "Admin",
+        "value": "Ops lead"
+      },
+      {
+        "label": "Billing",
+        "value": "Route plan"
+      }
+    ],
+    "theme_badge": "Global ops"
+  },
+  {
+    "accent_label": "Soft green",
+    "available_locales": [
+      "en",
+      "es"
+    ],
+    "docs_href": "https://docs.contentrain.io/",
+    "id": "tenant-northwind-health",
+    "industry": "Healthcare technology",
+    "logo_mark": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&fm=jpg&q=80&w=700",
+    "name": "Northwind Health",
+    "slug": "northwind-health",
+    "summary": "Needs patient-safe terminology, support escalation copy, and conservative rollout language.",
+    "support_email": "support@northwind.example",
+    "terminology": [
+      {
+        "label": "Workspace",
+        "value": "Care site"
+      },
+      {
+        "label": "Admin",
+        "value": "Clinical operator"
+      },
+      {
+        "label": "Billing",
+        "value": "Service package"
+      }
+    ],
+    "theme_badge": "Healthcare"
+  }
+]

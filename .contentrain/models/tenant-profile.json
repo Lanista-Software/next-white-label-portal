@@ -1,0 +1,59 @@
+{
+  "domain": "brand",
+  "fields": {
+    "accent_label": {
+      "type": "string"
+    },
+    "available_locales": {
+      "items": "string",
+      "type": "array"
+    },
+    "docs_href": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "logo_mark": {
+      "type": "image"
+    },
+    "name": {
+      "required": true,
+      "type": "string"
+    },
+    "slug": {
+      "required": true,
+      "type": "slug",
+      "unique": true
+    },
+    "summary": {
+      "required": true,
+      "type": "text"
+    },
+    "support_email": {
+      "type": "string"
+    },
+    "terminology": {
+      "items": {
+        "fields": {
+          "label": {
+            "required": true,
+            "type": "string"
+          },
+          "value": {
+            "required": true,
+            "type": "string"
+          }
+        },
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "theme_badge": {
+      "type": "string"
+    }
+  },
+  "i18n": true,
+  "id": "tenant-profile",
+  "kind": "collection"
+}

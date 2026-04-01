@@ -1,0 +1,35 @@
+{
+  "domain": "ops",
+  "fields": {
+    "actor": {
+      "required": true,
+      "type": "string"
+    },
+    "severity": {
+      "options": [
+        "info",
+        "warning",
+        "critical"
+      ],
+      "type": "select"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "target": {
+      "required": true,
+      "type": "string"
+    },
+    "timestamp": {
+      "required": true,
+      "type": "datetime"
+    },
+    "title": {
+      "required": true,
+      "type": "string"
+    }
+  },
+  "i18n": true,
+  "id": "audit-event",
+  "kind": "collection"
+}

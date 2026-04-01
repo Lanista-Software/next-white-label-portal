@@ -1,0 +1,30 @@
+{
+  "domain": "ops",
+  "fields": {
+    "body": {
+      "required": true,
+      "type": "text"
+    },
+    "cta_href": {
+      "type": "string"
+    },
+    "cta_label": {
+      "type": "string"
+    },
+    "title": {
+      "required": true,
+      "type": "string"
+    },
+    "tone": {
+      "options": [
+        "info",
+        "warning",
+        "success"
+      ],
+      "type": "select"
+    }
+  },
+  "i18n": true,
+  "id": "ops-notice",
+  "kind": "collection"
+}

@@ -1,0 +1,6 @@
+{
+  "canonical_base": "https://example.com",
+  "meta_description": "Next.js starter for white-label portals with Contentrain-managed tenant terminology, locale coverage, and support-facing portal copy.",
+  "meta_title": "Signal Portal",
+  "og_image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&fm=jpg&q=80&w=1600"
+}

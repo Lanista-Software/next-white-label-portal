@@ -1,0 +1,31 @@
+export default {
+  "announcement_label": "Tenant-aware portal starter",
+  "cta_href": "https://studio.contentrain.io/",
+  "cta_label": "Open Studio",
+  "items": [
+    {
+      "href": "/",
+      "label": "Overview"
+    },
+    {
+      "href": "/tenants",
+      "label": "Tenants"
+    },
+    {
+      "href": "/settings",
+      "label": "Settings"
+    },
+    {
+      "href": "/billing",
+      "label": "Billing"
+    },
+    {
+      "href": "/operations",
+      "label": "Operations"
+    },
+    {
+      "href": "/architecture",
+      "label": "Architecture"
+    }
+  ]
+}
